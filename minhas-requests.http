@@ -1,0 +1,8 @@
+
+POST http://localhost:8080/kafka/send
+Content-Type: application/json
+
+{
+    "key": "hello",
+    "value": "Hello, Kafka 2!"
+}
