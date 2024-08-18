@@ -6,3 +6,6 @@ Content-Type: application/json
     "key": "hello",
     "value": "Hello, Kafka 2!"
 }
+
+### converta a request acima em curl
+curl -X POST "http://localhost:8080/kafka/send" -H "Content-Type: application/json" -d "{\"key\":\"hello\",\"value\":\"Hello, Kafka!\"}"
